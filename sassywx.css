@@ -1,0 +1,26 @@
+@import url(normalize.css);
+.container {
+  border-style: dotted;
+  width: 50%;
+  margin-left: 25%; }
+  .container .citybuttons {
+    text-align: center; }
+  .container button {
+    background-color: #89d2e3;
+    border: none;
+    color: #a81c5f;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px; }
+  .container .showwx {
+    text-align: center;
+    padding-top: 1rem;
+    color: #111; }
+
+h2 {
+  color: #a81c5f;
+  text-align: center; }
+
+/*# sourceMappingURL=sassywx.css.map */

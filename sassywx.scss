@@ -1,0 +1,39 @@
+$black: #111;
+$pink: #a81c5f;
+$border-style: 3px dotted $pink;
+$clicky: #89d2e3;
+
+@import "normalize.css";
+
+.container {
+    border-style: dotted;
+    width: 50%;
+    margin-left: 25%;
+
+  .citybuttons {
+    text-align: center;
+  }
+
+    button {
+
+      background-color: $clicky;
+      border: none;
+      color: $pink;
+      padding: 15px 32px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 16px;
+    }
+
+  .showwx {
+    text-align: center;
+    padding-top: 1rem;
+    color: $black;
+  }
+}
+
+h2 {
+  color: $pink;
+  text-align: center;
+}
