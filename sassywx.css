@@ -1,8 +1,18 @@
 @import url(normalize.css);
+.image-cold {
+  content: '<img src="images/coldguin.jpg">'; }
+
+.image-hot {
+  content: '<img src="images/hotguin.jpg">'; }
+
+.image-rain {
+  content: '<img src="images/rainguin.jpg">'; }
+
 .container {
-  border-style: dotted;
+  border: 3px dotted #a81c5f;
   width: 50%;
-  margin-left: 25%; }
+  margin-left: 25%;
+  margin-top: 3rem; }
   .container .citybuttons {
     text-align: center; }
   .container button {
@@ -17,7 +27,12 @@
   .container .showwx {
     text-align: center;
     padding-top: 1rem;
+    padding-bottom: 1rem;
     color: #111; }
+
+.guins {
+  padding-top: 2rem;
+  text-align: center; }
 
 h2 {
   color: #a81c5f;

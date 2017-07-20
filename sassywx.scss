@@ -1,17 +1,29 @@
 @import "normalize.css";
 @import "_variables";
+//////
+$images: (
+  cold: "images/coldguin.jpg",
+  hot: "images/hotguin.jpg",
+  rain: "images/rainguin.jpg"
+);
+
+@each $name, $value in $images {
+  .image-#{$name} {
+    content: '<img src="' + $value + '">';
+  }
+}
 
 .container {
-    border-style: $border-style;
+    border: $border-style;
     width: 50%;
     margin-left: 25%;
+    margin-top: 3rem;
 
   .citybuttons {
     text-align: center;
   }
 
     button {
-
       background-color: $clicky;
       border: none;
       color: $pink;
@@ -25,8 +37,14 @@
   .showwx {
     text-align: center;
     padding-top: 1rem;
+    padding-bottom: 1rem;
     color: $black;
   }
+}
+
+.guins {
+  padding-top: 2rem;
+  text-align: center;
 }
 
 h2 {
