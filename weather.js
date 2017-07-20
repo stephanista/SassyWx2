@@ -1,5 +1,5 @@
 const apiURL = "https://cors-anywhere.herokuapp.com/http://api.openweathermap.org/data/2.5/weather";
-const appID = "&units=metric&appid=a4192ac11c66b463d93c577e64fda186"; 
+const appID = "&units=metric&appid=a4192ac11c66b463d93c577e64fda186"; // including metric conversion 
 let debug = null
 const googKey = "AIzaSyCtTvmh8I62BBrU7qOMjAvvsfBLifI2KxI";
 
