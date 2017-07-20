@@ -9,7 +9,7 @@ $images: (
 
 @each $name, $value in $images {
   .image-#{$name} {
-    content: '<img src="' + $value + '">';
+    background-image: url("images/#{$name}.jpg") no-repeat
   }
 }
 

@@ -1,12 +1,12 @@
 @import url(normalize.css);
 .image-cold {
-  content: '<img src="images/coldguin.jpg">'; }
+  background-image: url("images/cold.jpg") no-repeat; }
 
 .image-hot {
-  content: '<img src="images/hotguin.jpg">'; }
+  background-image: url("images/hot.jpg") no-repeat; }
 
 .image-rain {
-  content: '<img src="images/rainguin.jpg">'; }
+  background-image: url("images/rain.jpg") no-repeat; }
 
 .container {
   border: 3px dotted #a81c5f;
